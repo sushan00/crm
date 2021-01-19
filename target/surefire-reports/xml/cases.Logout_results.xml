@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="关闭浏览器"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.907">
+  <properties />
+  
+  
+            <testcase name="afterTest" time="0.907" classname="cases.Logout" />
+      
+</testsuite>

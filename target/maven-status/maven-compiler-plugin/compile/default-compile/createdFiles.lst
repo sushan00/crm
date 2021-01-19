@@ -1,0 +1,6 @@
+base\ReadProperties.class
+mail\MyAuthenticator.class
+mail\ReadHtml.class
+mail\SendMail.class
+mail\AutoMail.class
+mail\MailInfo.class

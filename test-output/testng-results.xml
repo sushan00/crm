@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="173651" started-at="2021-01-17T23:26:38 CST" finished-at="2021-01-17T23:29:32 CST">
+    <groups>
+    </groups>
+    <test name="登录" duration-ms="24399" started-at="2021-01-17T23:26:38 CST" finished-at="2021-01-17T23:27:02 CST">
+      <class name="cases.Login">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:cases.Login@2145b572]" name="logintest" duration-ms="24337" started-at="2021-01-17T23:26:38 CST" finished-at="2021-01-17T23:27:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- cases.Login -->
+    </test> <!-- 登录 -->
+    <test name="线索池查询" duration-ms="147864" started-at="2021-01-17T23:27:03 CST" finished-at="2021-01-17T23:29:30 CST">
+      <class name="cases.ClubPool">
+        <test-method status="PASS" signature="searchCustomByCode()[pri:0, instance:cases.ClubPool@393671df]" name="searchCustomByCode" duration-ms="147862" started-at="2021-01-17T23:27:03 CST" finished-at="2021-01-17T23:29:30 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomByCode -->
+      </class> <!-- cases.ClubPool -->
+    </test> <!-- 线索池查询 -->
+    <test name="关闭浏览器" duration-ms="1168" started-at="2021-01-17T23:29:30 CST" finished-at="2021-01-17T23:29:32 CST">
+      <class name="cases.Logout">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cases.Logout@1afd44cb]" name="afterTest" duration-ms="1167" started-at="2021-01-17T23:29:30 CST" finished-at="2021-01-17T23:29:32 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cases.Logout -->
+    </test> <!-- 关闭浏览器 -->
+  </suite> <!-- suite1 -->
+</testng-results>
